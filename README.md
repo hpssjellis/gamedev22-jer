@@ -15,7 +15,7 @@ Derek  github  https://github.com/d-forstbauer/GameDev22-Derek
 
 Subin https://dsbin.github.io/GameDev22sbin/public/index.html     
 Sean	https://kronos180.github.io/GameDev22-Kronos180/public/index.html     
-Isaac     	
+Isaac     https://smallmanisaac.github.io/GameDev22-Isaac/public/index.html    	
 Talon		    https://shdaddy.github.io/GAMEDEV-22/public/index.html        
 Ben		  no links     
 Jake		   https://jerry-lobster.github.io/GameDev22-Jerry/public/index.html     
@@ -25,11 +25,11 @@ Yuka		https://yuka0203.github.io/gamedev22-yuka/public/index.html
 Jack		https://jack-cedar.github.io/jack-cedar-gamedev2022/public/index.html     
 Caleb		https://calebmemememe.github.io/GameDev22/public/index.html     
 Brandon		https://machinelearning3dprinting.github.io/GAME_DEV_22_Brandon/public/index.html     
-Clayton		where are you     
+Clayton		https://monqueese.github.io/GAMEDEV-22-clay/public/index.html       
 Evan		https://nightshadegithub.github.io/GameDev22Evan/public/index.html     
 Noah		https://noahlevesque.github.io/GameDevelopment22Noah/public/index.html     
 Adrian		no links     
-Dylan		  link needs help     
+Dylan		  https://dolan8675309.github.io/Dolan8675309/public/index.html      
 Guri		https://ranbir733.github.io/GameDev-22-Guri/public/index.html     
 Trentyn		https://trentynn-gd2022.github.io/gamedev22-trentyn/public/index.html       
 Abhay		https://abhayjeet1357.github.io/Game_Dev_22_Abhay/public/index.html     
