@@ -17,7 +17,7 @@ Subin https://dsbin.github.io/GameDev22sbin/public/index.html
 Sean	https://kronos180.github.io/GameDev22-Kronos180/public/index.html     
 Isaac     https://smallmanisaac.github.io/GameDev22-Isaac/public/index.html    	
 Talon		    https://shdaddy.github.io/GAMEDEV-22/public/index.html        
-Ben		  no links     
+Ben		  https://bengriffi.github.io/Ben-Repository/public/index.html        
 Jake		   https://jerry-lobster.github.io/GameDev22-Jerry/public/index.html     
 Robbie		https://mrseeker2022.github.io/GameDev22-Mrseeker/public/index.html     
 Ethan		https://ggurd.github.io/GameDev22-Ethan/publicpublic/index.html     
