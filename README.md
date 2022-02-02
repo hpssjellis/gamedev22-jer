@@ -28,7 +28,7 @@ Brandon		https://machinelearning3dprinting.github.io/GAME_DEV_22_Brandon/public/
 Clayton		https://monqueese.github.io/GAMEDEV-22-clay/public/index.html       
 Evan		https://nightshadegithub.github.io/GameDev22Evan/public/index.html     
 Noah		https://noahlevesque.github.io/GameDevelopment22Noah/public/index.html     
-Adrian		no links     
+Adrian		https://htmlforgeoworks.github.io/game-dev-mss/public/index.html         
 Dylan		  https://dolan8675309.github.io/Dolan8675309/public/index.html      
 Guri		https://ranbir733.github.io/GameDev-22-Guri/public/index.html     
 Trentyn		https://trentynn-gd2022.github.io/gamedev22-trentyn/public/index.html       
