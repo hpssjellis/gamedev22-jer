@@ -31,7 +31,7 @@ Noah		https://noahlevesque.github.io/GameDevelopment22Noah/public/index.html
 Adrian		no links     
 Dylan		  link needs help     
 Guri		https://ranbir733.github.io/GameDev-22-Guri/public/index.html     
-Trentyn		link not yet     
+Trentyn		https://trentynn-gd2022.github.io/gamedev22-trentyn/public/index.html       
 Abhay		https://abhayjeet1357.github.io/Game_Dev_22_Abhay/public/index.html     
 Ian		https://silverwolf402.github.io/Gamedev-2022-Ian/public/index.html     
 Jesse		     
