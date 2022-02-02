@@ -38,7 +38,7 @@ Jesse
 Nathen		https://nathengd22.github.io/gd112022/     
 Jax		https://jacksonstobbe.github.io/gamedev22-jax/public/index.html     
 Kenshin  https://kenshin216.github.io/GameDab22/public/index.html     
-Michael		link needs work     
+Michael		https://chrono2005.github.io/GameDev2022-Michael/public/index.html   
 
 
 .
