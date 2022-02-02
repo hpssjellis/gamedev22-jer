@@ -16,7 +16,7 @@ Derek  github  https://github.com/d-forstbauer/GameDev22-Derek
 Subin https://dsbin.github.io/GameDev22sbin/public/index.html     
 Sean	https://kronos180.github.io/GameDev22-Kronos180/public/index.html     
 Isaac     	
-Talon		    github  https://github.com/Shdaddy/GAMEDEV-22/     
+Talon		    https://shdaddy.github.io/GAMEDEV-22/public/index.html        
 Ben		  no links     
 Jake		   https://jerry-lobster.github.io/GameDev22-Jerry/public/index.html     
 Robbie		https://mrseeker2022.github.io/GameDev22-Mrseeker/public/index.html     
