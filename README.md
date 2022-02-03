@@ -11,7 +11,7 @@ https://github.com/hpssjellis/gamedev22-jer
 
 
 Students 2022   
-## Derek  github  https://github.com/d-forstbauer/GameDev22-Derek
+Derek    https://d-forstbauer.github.io/GameDev22-Derek/Public/index.html     
 Subin    https://dsbin.github.io/GameDev22sbin/public/index.html     
 Sean	   https://kronos180.github.io/GameDev22-Kronos180/public/index.html        
 Isaac    https://smallmanisaac.github.io/GameDev22-Isaac/public/index.html       	
