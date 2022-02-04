@@ -21,7 +21,7 @@ Ben		   https://bengriffi.github.io/Ben-Repository/public/index.html
 
 Jake		 https://jerry-lobster.github.io/GameDev22-Jerry/public/index.html     
 Robbie	 https://mrseeker2022.github.io/GameDev22-Mrseeker/public/index.html     
-Ethan	   https://ggurd.github.io/GameDev22-Ethan/publicpublic/index.html  
+Ethan	   https://ggurd.github.io/GameDev22-Ethan/public/index.html  
 
 Yuka	 	 https://yuka0203.github.io/gamedev22-yuka/public/index.html     
 Jack		 https://jack-cedar.github.io/jack-cedar-gamedev2022/public/index.html     
