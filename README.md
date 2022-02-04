@@ -11,12 +11,12 @@ https://github.com/hpssjellis/gamedev22-jer
 
 
 Students 2022   
-Derek    https://d-forstbauer.github.io/GameDev22-Derek/Public/index.html     
 Subin    https://dsbin.github.io/GameDev22sbin/public/index.html     
 Sean	   https://kronos180.github.io/GameDev22-Kronos180/public/index.html   
 
 Isaac    https://smallmanisaac.github.io/GameDev22-Isaac/public/index.html     
-Talon		 https://shdaddy.github.io/GAMEDEV-22/public/index.html        
+Talon		 https://shdaddy.github.io/GAMEDEV-22/public/index.html  
+Derek    https://d-forstbauer.github.io/GameDev22-Derek/Public/index.html     
 Ben		   https://bengriffi.github.io/Ben-Repository/public/index.html  
 
 Jake		 https://jerry-lobster.github.io/GameDev22-Jerry/public/index.html     
