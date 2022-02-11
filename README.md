@@ -43,8 +43,6 @@ Ian		   https://silverwolf402.github.io/Gamedev-2022-Ian/public/index.html
 Jesse		 https://gamedev22-jesse.github.io/GameDev-JesSno/public/index.html         
 Nathen	 https://nathengd22.github.io/gd112022/public/      
 
-Jax		   https://jacksonstobbe.github.io/gamedev22-jax/public/index.html     
-Kenshin  https://kenshin216.github.io/GameDab22/public/index.html     
 Michael	 https://chrono2005.github.io/GameDev2022-Michael/public/index.html   
 
 
@@ -63,7 +61,11 @@ Michael	 https://chrono2005.github.io/GameDev2022-Michael/public/index.html
 
 .
 
+Left class
 
+
+Jax		   https://jacksonstobbe.github.io/gamedev22-jax/public/index.html     
+Kenshin  https://kenshin216.github.io/GameDab22/public/index.html     
 
 .
 
