@@ -106,6 +106,7 @@ function led_on(){
 	message.retained = true;
 	client.send(message);
 	console.info('sending: ', payload);
+	document.getElementById("myDiv01").innerHTML = 'sending: ', payload
 }
 
 // Provides the button logic that toggles our display LED on and off
@@ -119,22 +120,24 @@ function led_off(){
 	message.destinationName = led_topic;
 	message.retained = true;
 	client.send(message);
-	console.info('sending: ', payload);
+	console.info('sending: ', payload);	
+	document.getElementById("myDiv01").innerHTML = 'sending: ', payload
 }
 
 
 </script>
 
-<h6>Version 0.2.6</h6>
+<h6>Version 0.2.7</h6>
 <h1>Welcome To The Shortest JavaScript MQTT Demo Ever!</h1>
 
-<input id="myHostname" type=text value ="test.mosquitto.org">
-<input id="myPort" type=text value ="8081">
-<input id="myLed_topic" type=text value ="led1">
-<input id="myClientId" type=text value ="">
+<input id="myHostname" type=text value ="test.mosquitto.org"><br>
+<input id="myPort" type=text value ="8081"><br>
+<input id="myLed_topic" type=text value ="led1"><br>
+<input id="myClientId" type=text value =""><br><br>
+
 <button id="on_button" type="button" onclick="led_on();" disabled>Click Me to turn LED on</button> 	  
 <button id="off_button" type="button" onclick="led_off();" disabled>Click Me to turn LED off</button> 	
 <br>
 <button id="connect_button" type="button" onclick="connect();">Click Me to Connect</button>
-
+<div id="myDiv01">...</div>
 
