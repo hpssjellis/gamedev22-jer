@@ -96,7 +96,7 @@ function onMessageArrived(message) {
 
 // Provides the button logic that toggles our display LED on and off
 // Triggered by pressing the HTML button "status_button"
-function led_on(){
+async function led_on(){
   var payload = "1";
   led_is_on = true;
 
@@ -112,7 +112,7 @@ function led_on(){
 
 // Provides the button logic that toggles our display LED on and off
 // Triggered by pressing the HTML button "status_button"
-function led_off(){
+async function led_off(){
   var payload = "0";
   led_is_on = false;
 
@@ -129,10 +129,10 @@ function led_off(){
 
 </script>
 
-<h6>Version 0.2.8</h6>
+<h6>Version 0.2.9</h6>
 <h3>Welcome To The Shortest JavaScript MQTT Demo Ever!</h3>
 
-<input id="myHostname" type=text value ="test.mosquitto.org"><br>
+Hostname: <input id="myHostname" type=text value ="test.mosquitto.org"><br>
 <input id="myPort" type=text value ="8081"><br>
 <input id="myLed_topic" type=text value ="led1"><br>
 <input id="myClientId" type=text value =""><br>
