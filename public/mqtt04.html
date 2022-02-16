@@ -55,7 +55,7 @@ function connect(){
 	console.info('Connecting...');
 	
         document.getElementById("myDiv01").innerHTML = 'Connecting...'
-        document.getElementById("myDiv02").innerHTML = 'Connecting...<br>' + document.getElementById("myDiv02").innerHTML
+        document.getElementById("myDiv02").innerHTML = 'Connecting...<br>' + document.getElementById('myDiv02').innerHTML
 }
 
 
@@ -88,7 +88,7 @@ function onConnectionLost(responseObject) {
 		console.log("Connection Lost: " + responseObject.errorMessage);
 		window.alert("Someone else took my websocket!\nRefresh to take it back.");
 		document.getElementById("myDiv01").innerHTML = 'Connection Lost:' + responseObject.errorMessage
-                document.getElementById("myDiv02").innerHTML = ''Connection Lost:' + responseObject.errorMessage + '<br>' + document.getElementById("myDiv02").innerHTML
+                document.getElementById("myDiv02").innerHTML = 'Connection Lost:' + responseObject.errorMessage + '<br>' + document.getElementById("myDiv02").innerHTML
 	}
 }
 
@@ -144,7 +144,7 @@ async function led_off(){
 
 </script>
 
-<h6>Version 0.3.2.15</h6>
+<h6>Version 0.3.3.16</h6>
 <h3>JavaScript Browser MQTT Demo</h3>
 
 Hostname: <input id="myHostname" type=text value ="test.mosquitto.org"><br>
