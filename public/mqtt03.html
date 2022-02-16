@@ -92,7 +92,7 @@ async function onMessageArrived(message) {
   if (message.destinationName == led_topic){
     console.log('got LED message');
   }
- document.getElementById("myDiv01").innerHTML += 'Receiving:'+ message
+ document.getElementById("myDiv01").innerHTML += 'Receiving: got message to topic:'+ message.destinationName + 'message:' + message.payloadString
 }
 
 // Provides the button logic that toggles our display LED on and off
@@ -130,7 +130,7 @@ async function led_off(){
 
 </script>
 
-<h6>Version 0.2.10</h6>
+<h6>Version 0.2.11</h6>
 <h3>JavaScript Browser MQTT Demo Ever!</h3>
 
 Hostname: <input id="myHostname" type=text value ="test.mosquitto.org"><br>
