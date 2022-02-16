@@ -87,11 +87,12 @@ function onConnectionLost(responseObject) {
 // Updates the webpage elements with new data, and 
 //  tracks the display LED status as well, 
 //  in case multiple clients are toggling it.
-function onMessageArrived(message) {
+async function onMessageArrived(message) {
 	console.log('got message to topic:',message.destinationName, 'message:', message.payloadString);
   if (message.destinationName == led_topic){
     console.log('got LED message');
   }
+ document.getElementById("myDiv01").innerHTML += 'Receiving:'+ message
 }
 
 // Provides the button logic that toggles our display LED on and off
@@ -107,7 +108,7 @@ async function led_on(){
 	client.send(message);
 	console.info('sending: ', payload);
 	myPayload = await payload
-	document.getElementById("myDiv01").innerHTML = 'sending: ', myPayload
+	document.getElementById("myDiv01").innerHTML = 'sending: '+ myPayload
 }
 
 // Provides the button logic that toggles our display LED on and off
@@ -123,7 +124,7 @@ async function led_off(){
 	client.send(message);
 	console.info('sending: ', payload);		
 	myPayload = await payload
-	document.getElementById("myDiv01").innerHTML = 'sending: ', myPayload
+	document.getElementById("myDiv01").innerHTML = 'sending: '+ myPayload
 }
 
 
