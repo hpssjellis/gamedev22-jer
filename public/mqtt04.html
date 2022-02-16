@@ -53,11 +53,17 @@ function connect(){
 	// connect the client
 	client.connect(options);
 	console.info('Connecting...');
+	
+        document.getElementById("myDiv01").innerHTML = 'Connecting...'
+        document.getElementById("myDiv02").innerHTML += 'Connecting...<br>'
 }
 
 
 function onConnect(context) {
-	console.log("Client Connected");
+  console.log("Client Connected");
+	
+  document.getElementById("myDiv01").innerHTML = 'Client Connected'
+  document.getElementById("myDiv02").innerHTML += 'Client Connected<br>'
   document.getElementById('connect_button').innerHTML = "Connected!";
   document.getElementById('connect_button').disabled = true;
   document.getElementById('on_button').disabled = false;
@@ -72,6 +78,9 @@ function onConnect(context) {
 
 function onFail(context) {
 	console.log("Failed to connect");
+	
+	document.getElementById("myDiv01").innerHTML = 'Failed to connect'
+	document.getElementById("myDiv02").innerHTML += 'Failed to connect<br>'
 }
 
 function onConnectionLost(responseObject) {
@@ -92,7 +101,8 @@ async function onMessageArrived(message) {
   if (message.destinationName == led_topic){
     console.log('got LED message');
   }
- document.getElementById("myDiv01").innerHTML += 'Receiving: got message to topic:'+ message.destinationName + 'message:' + message.payloadString
+ document.getElementById("myDiv01").innerHTML = 'Topic:'+ message.destinationName + 'message:' + message.payloadString
+ document.getElementById("myDiv02").innerHTML += 'Topic:'+ message.destinationName + 'message:' + message.payloadString + '<br>'
 }
 
 // Provides the button logic that toggles our display LED on and off
@@ -109,6 +119,7 @@ async function led_on(){
 	console.info('sending: ', payload);
 	myPayload = await payload
 	document.getElementById("myDiv01").innerHTML = 'sending: '+ myPayload
+	document.getElementById("myDiv02").innerHTML += 'sending: '+ myPayload + '<br>'
 }
 
 // Provides the button logic that toggles our display LED on and off
@@ -125,12 +136,13 @@ async function led_off(){
 	console.info('sending: ', payload);		
 	myPayload = await payload
 	document.getElementById("myDiv01").innerHTML = 'sending: '+ myPayload
+	document.getElementById("myDiv02").innerHTML += 'sending: '+ myPayload + '<br>'
 }
 
 
 </script>
 
-<h6>Version 0.3.0.12</h6>
+<h6>Version 0.3.1.14</h6>
 <h3>JavaScript Browser MQTT Demo Ever!</h3>
 
 Hostname: <input id="myHostname" type=text value ="test.mosquitto.org"><br>
@@ -142,4 +154,5 @@ Topic: <input id="myLed_topic" type=text value ="led1"><br>
 <button id="on_button" type="button" onclick="led_on();" disabled>Click Me to turn LED on</button> 	  
 <button id="off_button" type="button" onclick="led_off();" disabled>Click Me to turn LED off</button> 	
 <br>
-<div id="myDiv01">...</div>
+<div id="myDiv01">Now</div>
+<div id="myDiv02">History</div>
