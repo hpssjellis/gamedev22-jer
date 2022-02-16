@@ -14,10 +14,10 @@
 var client;
 
 // These are configs	
-var hostname       = "test.mosquitto.org";
+var hostname       = "broker.mqttdashboard.com";
 var port           = "8081";
 var led_topic      = "led1";
-var clientId;
+var clientId       = "clientId-ETcuaEVGvc";
 
 //create client ID or load from storage
 if ( window.sessionStorage.clientId){
@@ -119,7 +119,7 @@ function led_off(){
 
 </script>
 
-<h6>Version 0.0.1</h6>
+<h6>Version 0.1.2</h6>
 From codepen <a href="https://codepen.io/fenwick/pen/JRyyBM">https://codepen.io/fenwick/pen/JRyyBM</a>
 <h1>Welcome To The Shortest JavaScript MQTT Demo Ever!</h1>
 <button id="on_button" type="button" onclick="led_on();" disabled>Click Me to turn LED on</button> 	  
