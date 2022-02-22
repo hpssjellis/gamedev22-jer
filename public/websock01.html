@@ -1,0 +1,8 @@
+
+<input type=button value=try onclick="{
+
+var Socket = new WebSocket('ws://' + window.location.hostname + ':81/'); // The '81' here is the Port where the WebSocket server will communicate with
+// The instance of the WebSocket() class (i.e. Socket here), must need to be globally defined
+
+Socket.send("pass your data here, and it'll be String"); // This method one can call locally
+}">
