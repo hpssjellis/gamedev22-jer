@@ -1,0 +1,100 @@
+
+<h6>Version 0.1.0-3</h6>
+
+<script>
+
+function myConvert(myIn){
+
+   let myTemp = ''
+   myString = document.getElementById('myArea01').value.split('')
+   for (let myLoop=0;   myLoop < myString.length; myLoop++){
+      myTemp = myString[myLoop]
+      if (myString[myLoop] == '1') {myTemp  = ',,0'} 
+      if (myString[myLoop] == '!') {myTemp  = ',,1'} 
+      if (myString[myLoop] == '2') {myTemp  = ',,2'} 
+      if (myString[myLoop] == '@') {myTemp  = ',,3'} 
+      if (myString[myLoop] == '3') {myTemp  = ',,4'} 
+      if (myString[myLoop] == '4') {myTemp  = ',,5'} 
+      if (myString[myLoop] == '$') {myTemp  = ',,6'} 
+      if (myString[myLoop] == '5') {myTemp  = ',,7'} 
+      if (myString[myLoop] == '%') {myTemp  = ',,8'} 
+      if (myString[myLoop] == '6') {myTemp  = ',,9'} 
+      if (myString[myLoop] == '^') {myTemp  = ',,*'} 
+      if (myString[myLoop] == '7') {myTemp  = ',,@'} 
+      if (myString[myLoop] == '8') {myTemp  = ',0'} 
+      if (myString[myLoop] == '*') {myTemp  = ',1'} 
+      if (myString[myLoop] == '9') {myTemp  = ',2'} 
+      if (myString[myLoop] == '(') {myTemp  = ',3'} 
+      if (myString[myLoop] == '0') {myTemp  = ',4'} 
+      if (myString[myLoop] == 'q') {myTemp  = ',5'} 
+      if (myString[myLoop] == 'Q') {myTemp  = ',6'} 
+      if (myString[myLoop] == 'w') {myTemp  = ',7'} 
+      if (myString[myLoop] == 'W') {myTemp  = ',8'} 
+      if (myString[myLoop] == 'e') {myTemp  = ',9'} 
+      if (myString[myLoop] == 'E') {myTemp  = ',*'} 
+      if (myString[myLoop] == 'r') {myTemp  = ',@'} 
+      if (myString[myLoop] == 't') {myTemp  = '0'} 
+      if (myString[myLoop] == 'T') {myTemp  = '1'} 
+      if (myString[myLoop] == 'y') {myTemp  = '2'} 
+      if (myString[myLoop] == 'Y') {myTemp  = '3'} 
+      if (myString[myLoop] == 'u') {myTemp  = '4'} 
+      if (myString[myLoop] == 'i') {myTemp  = '5'} 
+      if (myString[myLoop] == 'I') {myTemp  = '6'} 
+      if (myString[myLoop] == 'o') {myTemp  = '7'} 
+      if (myString[myLoop] == 'O') {myTemp  = '8'} 
+      if (myString[myLoop] == 'p') {myTemp  = '9'} 
+      if (myString[myLoop] == 'P') {myTemp  = '@'} 
+      if (myString[myLoop] == 'a') {myTemp  = '*'} 
+      if (myString[myLoop] == 's') {myTemp  = '\'0'} 
+      if (myString[myLoop] == 'S') {myTemp  = '\'1'} 
+      if (myString[myLoop] == 'd') {myTemp  = '\'2'} 
+      if (myString[myLoop] == 'D') {myTemp  = '\'3'} 
+      if (myString[myLoop] == 'f') {myTemp  = '\'4'} 
+      if (myString[myLoop] == 'g') {myTemp  = '\'5'} 
+      if (myString[myLoop] == 'G') {myTemp  = '\'6'} 
+      if (myString[myLoop] == 'h') {myTemp  = '\'7'} 
+      if (myString[myLoop] == 'H') {myTemp  = '\'8'} 
+      if (myString[myLoop] == 'j') {myTemp  = '\'9'} 
+      if (myString[myLoop] == 'J') {myTemp  = '\'@'} 
+      if (myString[myLoop] == 'k') {myTemp  = '\'*'} 
+      if (myString[myLoop] == 'l') {myTemp  = '\'\'0'} 
+      if (myString[myLoop] == 'L') {myTemp  = '\'\'1'} 
+      if (myString[myLoop] == 'z') {myTemp  = '\'\'2'} 
+      if (myString[myLoop] == 'Z') {myTemp  = '\'\'3'} 
+      if (myString[myLoop] == 'x') {myTemp  = '\'\'4'} 
+      if (myString[myLoop] == 'c') {myTemp  = '\'\'5'} 
+      if (myString[myLoop] == 'C') {myTemp  = '\'\'6'} 
+      if (myString[myLoop] == 'v') {myTemp  = '\'\'7'} 
+      if (myString[myLoop] == 'V') {myTemp  = '\'\'8'} 
+      if (myString[myLoop] == 'b') {myTemp  = '\'\'9'} 
+      if (myString[myLoop] == 'B') {myTemp  = '\'\'@'} 
+      if (myString[myLoop] == 'n') {myTemp  = '\'\'*'} 
+      if (myString[myLoop] == 'm') {myTemp  = '\'\'0'} 
+      myString[myLoop] = myTemp
+   }
+
+
+
+  return myString.join('')
+}
+
+</script>
+
+
+
+
+
+<h3 align=center> Convert From <a href="https://virtualpiano.net/"> VirtualPiano </a>
+ to <a href="http://www.keyfreemusic.com/keyfreemusic/"> Keyfreemusic </a> 
+for <a href="https://rocksetta.com/"> Rocksetta display</a> </h3>
+
+<textarea id="myArea01" rows=10 cols=80 NOWRAP>tuopiyt</textarea> <br><br>
+
+<input type=button value="Convert to keyfreemusic" onclick="{
+
+   document.getElementById('myArea02').value = myConvert(document.getElementById('myArea01').value)
+ 
+}"> <br><br>
+
+
+<textarea id="myArea02" rows=10 cols=80 NOWRAP>...</textarea>
